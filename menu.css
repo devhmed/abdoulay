@@ -1,0 +1,4 @@
+ul li{color:black;list-style-type:none;display:inline;border:2px solid black;padding:5px;margin:5px;background-color:grey;text-transform:uppercase;}
+#info{border-bottom:0px;background-color:white;}
+li:hover{background-color:pink;}
+ul{float:right;}

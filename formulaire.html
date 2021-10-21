@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+
+
+
+<head>    <!--pour défini l'entête de document HTML-->
+<title>
+formulaire
+</title>
+<link rel="stylesheet" type="text/css" href="menustyle.css"/>
+
+</head>
+
+<body bgcolor="green">    <!--pour défini le corps de document HTML-->
+<ul><li><a href="index.html">accueuil</a></li><li id="info">info</li><li>contact</li><li>se connecter</li>
+</ul>
+<fieldset style="background:yellow;" >
+<legend  style="background:Blue"><b>client </b>   </legend>
+<center>
+<table>
+<tr><td> civilité  </td>    <td> <input type="radio" id="madame" name="civilité"/>madame
+<input type="radio" id="mademoiselle" name="civilité"/>mademoiselle
+<input type="radio" id="monsieur" name="civilité"/>monsieur  </td>    </tr>
+
+<tr><td>nom/prenom</td><td><input type="text" maxlength="50"/></td></tr>
+<TR> <TD>Adresse </TD> <td> <textarea>    Tapez votre Texte </textArea>   </td>   </TR>
+<tr>  <td> No Postal/localité  </td> <td> <input type="text" maxlength="5"/>&nbsp; &nbsp;<input type="text" maxlenght="30"/>   </td>   </tr>
+<tr> <td>pays</td>   <td><select><option>france</option><option>birmanie</option><option>russie</option></select></td>   </tr>  
+<tr>  <td> Plateforme   </td> <td> <input type="checkbox" name="windows" checked />windows<input type="checkbox" name="macintosh" checked />macintosh <input type="checkbox" name="unix"/>unix </td> </tr>
+<tr> <td> Applications   </td> <td><select size="4" multiple> <option selected>Bureautique</option> <option> DAO</option> <option> Statistiques </option>  <option selected> Internet </option>  </select>   </td>      </tr>
+
+</table>
+</center>
+</fieldset>
+</body>
+</html>
